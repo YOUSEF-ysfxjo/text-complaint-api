@@ -1,0 +1,53 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+
+# =========================
+# Logs & runtime outputs
+# =========================
+logs/
+results/
+outputs/
+*.log
+
+# =========================
+# Model artifacts
+# =========================
+models/
+checkpoints/
+*.bin
+*.pt
+*.pth
+*.onnx
+
+# =========================
+# IDE / OS
+# =========================
+.vscode/
+.idea/
+.DS_Store
+
+# =========================
+# Test cache
+# =========================
+.pytest_cache/
+.coverage
